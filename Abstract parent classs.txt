@@ -1,0 +1,17 @@
+//abstract parent class
+
+abstract class flower
+{
+	public abstract void color();
+}
+
+public class lily extends flower
+{
+	public void color(){
+		System.out.println("white");
+	}
+	public static void main(String args[]){
+ 	lily obj = new lily();
+	obj.color();
+	}
+}
