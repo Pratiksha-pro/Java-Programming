@@ -1,0 +1,65 @@
+class increment
+{
+	public static void main(String args[])
+	{
+		int a=40,b=35,c=0;
+
+	c=a+b;
+	System.out.println("Addition of no is:\t"+c);
+
+	c=a-b;
+        System.out.println("Substraction of no is:\t"+c);
+
+        c=a*b;
+        System.out.println("Multiplication of no is:\t"+c);
+
+        c=a/b;
+        System.out.println("Division of no is:\t"+c);
+
+        c=a%b;
+        System.out.println("Module of no is:\t"+c);
+
+        System.out.println("Value of a="+a);
+
+	//post increment first the value is assigned then a is incremented by value one
+
+	a++;
+	System.out.println("post increment of a=" +a);
+
+	 a++;
+        System.out.println("post increment of a=" +a);
+
+	System.out.println("Value of a=" +a);
+
+	//pre increment a is incremented by value one then it is assigned
+
+	++a;
+	System.out.println("pre increment of a=" +a);
+
+	++a;
+        System.out.println("pre increment of a=" +a);
+
+        System.out.println("Value  of a=" +a);
+
+	//post increment: first value is assigned then a is decremented by one
+
+	a--;
+	System.out.println("post decrement of a=" +a);
+
+        a--;
+        System.out.println("post decrement of a=" +a);
+
+        System.out.println("Value of a=" +a);
+
+	//pre decrement : a is decremented then the value is assigned 
+
+        --a;
+        System.out.println("pre decrement of a=" +a);
+
+        --a;
+        System.out.println("pre decrement of a=" +a);
+	}
+}
+
+
+
